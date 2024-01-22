@@ -1,0 +1,10 @@
+
+server:
+  port: 8003
+
+spring:
+
+  data:
+    mongodb:
+      database: transpu-info-db
+      uri: ${MONGO_DB_URI:mongodb://admin:12345678@localhost:27017}

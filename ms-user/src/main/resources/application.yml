@@ -1,0 +1,20 @@
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: ms-user
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/transpu-company-db
+    password: postgres
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true
