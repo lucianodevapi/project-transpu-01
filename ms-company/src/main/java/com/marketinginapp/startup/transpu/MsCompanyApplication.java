@@ -10,4 +10,11 @@ public class MsCompanyApplication {
 		SpringApplication.run(MsCompanyApplication.class, args);
 	}
 
+
+	// TODO: find by list of company dy city or district
+
+	// TODO: find all address/street in district
+
+	// TODO: all lists of point time.
+
 }

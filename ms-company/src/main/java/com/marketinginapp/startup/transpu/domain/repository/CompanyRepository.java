@@ -1,0 +1,13 @@
+package com.marketinginapp.startup.transpu.domain.repository;
+
+import com.marketinginapp.startup.transpu.domain.entity.Company;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.Optional;
+
+public interface CompanyRepository extends JpaRepository<Company, Long> {
+
+    Optional<Company> findByName(String name);
+
+    Optional<Company> findByCode(String code);
+}
